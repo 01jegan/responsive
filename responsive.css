@@ -87,6 +87,9 @@ flex:0 0 auto;
     top: 11px;
 	right: -2px;
 }
+.email{
+	left:75px;
+}
 .email p {
     padding: 0px 0px;
 }
