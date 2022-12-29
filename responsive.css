@@ -58,6 +58,9 @@ flex:0 0 auto;
 	font-size:15px;
 	
 }
+.Flexor-content span{
+	right:20px;
+}
 .second-box{
 	margin:10px 0px;
 }
@@ -85,22 +88,106 @@ flex:0 0 auto;
 }
 .join a {
     top: 11px;
-	right: -5px;
+	right: 0px;
 }
-.email{
-	left:70px;
+.emali{
+	left:75px;
+}
+.callus{
+	right:10px;
 }
 .email p {
     padding: 0px 0px;
 }
-.callus{
-	right:10px;
-	}
 .Our-Address i {
     left: 21px;
 }
 }
+@media (min-width:768px){
+.col-md-1{
+width:16.66% ;
+flex:0 0 auto;	
+}
+.col-md-2{
+width:16.66% ;
+flex:0 0 auto;	
+}
+.col-md-3{
+width:25% ;	
+flex:0 0 auto;
+}
+.col-md-4{
+width: 33.33%;
+flex:0 0 auto;	
+}
+.col-md-5{
+width: 41.66%;
+flex:0 0 auto;	
+}
+.col-md-6{
+width:50%;
+flex:0 0 auto;	
+}
+.col-md-7{
+width: 58.33%;
+flex:0 0 auto;	
+}
+.col-md-8{
+width: 66.66%;	
+flex:0 0 auto;
+}
+.col-md-9{
+width:75% ;	
+flex:0 0 auto;
+}
+.col-md-10{
+width:83.33 %;
+flex:0 0 auto;	
+}
+.col-md-11{
+width:91.66% ;
+flex:0 0 auto;	
+}
+.col-md-12{
+width:100% ;	
+flex:0 0 auto;
+}
+.d-md-none{
+ 	display:none;
+}
+.Flexor-content{
+	margin:0 20px;
+}
+.first-box{
+	margin:10px 10px;
+}
+.second-box{
+	margin:10px 0px;
+}
+.play-video{
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.client img {
+	padding: 5px 0;
+}
+.img-logo{
+	padding: 30px ;
+}
 
+.text input {
+    padding: 9px 82px 9px 70px;
+}
+.copy-right{
+	text-align:center;
+	display:block;
+}
+.copy{
+	margin:15px 0;
+}
+}
 @media (min-width:1200px){
 .container{
 width:1170px;
@@ -144,5 +231,11 @@ width:91.66% ;
 }
 .col-lg-12{
 width:100% ;	
+}
+.d-lg-none{
+	display:none;
+}
+.d-lg-block{
+	display:block;
 }
 }
