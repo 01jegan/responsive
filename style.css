@@ -5,6 +5,7 @@
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 15px;
+	position:relative;
 }
 .row{
 	display: flex;
@@ -52,7 +53,9 @@
 .text-align-center{
 	text-align:center !important;
 }
-
+.d-none{
+	display:none;
+}
 .header-top{
 	background-color: #fff;
 }
@@ -129,6 +132,18 @@
 .nav-box a.active{
 	 color:#77c9ea;
 }
+.menu-btn {
+    position: absolute;
+    top: 9px;
+    right: 16px;
+    width: 40px;
+    height: auto;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    font-size: 30px;
+    background-color: transparent;
+}
 /*-------------end-------------*/
 	
 .Flexor{
@@ -180,15 +195,15 @@
 .Flexor-content span{
 	position:relative;
 	display:inline-block;
-	padding;10px 0 10px 30px;
+	padding:10px 0 10px 30px;
 }
 .bnr-btn>i {
 	position:absolute;
     background: #77c9ea;
     padding: 20px;
     color: #fff;
-	top:-10px;
-	left:-25px;
+	top:0px;
+	left:0px;
     border-radius: 50%;
 	box-shadow:1px 0 5px #767676;
  }
@@ -993,7 +1008,7 @@ opacity: 0.3;
 	padding:10px 16px;
 }
 .text input{
-	padding: 9px 80px 9px 70px;
+	padding: 9px 125px 9px 70px;
     border: 1px solid #ccc;
     border-radius: 25px;
 	position:relative;
